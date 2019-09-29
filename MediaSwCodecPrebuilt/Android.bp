@@ -1,0 +1,36 @@
+//
+// Copyright (C) 2019 The Android Open Source Project
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+prebuilt_apex {
+    name: "com.android.media.swcodec",
+    owner: "google",
+    prefer: true,
+    arch: {
+        arm64: {
+            src: "com.android.media.swcodec-arm64.apex",
+        },
+        arm: {
+            src: "com.android.media.swcodec-arm.apex",
+        },
+        x86: {
+            src: "com.android.media.swcodec-x86.apex",
+        },
+        x86_64: {
+            src: "com.android.media.swcodec-x86_64.apex",
+        },
+    },
+    filename: "com.google.android.media.swcodec.apex",
+}
