@@ -15,7 +15,7 @@
 //
 
 prebuilt_apex {
-    name: "com.android.tzdata",
+    name: "com.google.android.tzdata",
     owner: "google",
     prefer: true,
     arch: {

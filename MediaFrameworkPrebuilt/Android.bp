@@ -15,7 +15,7 @@
 //
 
 prebuilt_apex {
-    name: "com.android.media",
+    name: "com.google.android.media",
     owner: "google",
     prefer: true,
     arch: {

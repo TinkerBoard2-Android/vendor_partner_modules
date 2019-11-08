@@ -15,7 +15,7 @@
 //
 
 prebuilt_apex {
-    name: "com.android.resolv",
+    name: "com.google.android.resolv",
     owner: "google",
     prefer: true,
     arch: {

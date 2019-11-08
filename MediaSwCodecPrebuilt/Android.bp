@@ -15,7 +15,7 @@
 //
 
 prebuilt_apex {
-    name: "com.android.media.swcodec",
+    name: "com.google.android.media.swcodec",
     owner: "google",
     prefer: true,
     arch: {

@@ -15,7 +15,7 @@
 //
 
 prebuilt_apex {
-    name: "com.android.conscrypt",
+    name: "com.google.android.conscrypt",
     owner: "google",
     prefer: true,
     arch: {
