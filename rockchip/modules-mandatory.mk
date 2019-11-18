@@ -11,4 +11,4 @@ else
   include vendor/partner_modules/rockchip/api_level_$(ROCKCHIP_LUNCHING_API_LEVEL).mk
 endif
 
-DEVICE_PACKAGE_OVERLAYS += $(ANDROID_PARTNER_MODULES_HOME)/rockchip/modules_overlay
+PRODUCT_PACKAGE_OVERLAYS += $(ANDROID_PARTNER_MODULES_HOME)/rockchip/modules_overlay
