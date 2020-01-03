@@ -14,6 +14,12 @@ PRODUCT_PACKAGES += \
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Addon packages from Mainline requirements
+PRODUCT_PACKAGES += \
+    InProcessNetworkStack \
+    PlatformCaptivePortalLogin \
+    PlatformNetworkPermissionConfig
+
 # AOSP apex modules
 PRODUCT_PACKAGES += \
     com.android.resolv \
