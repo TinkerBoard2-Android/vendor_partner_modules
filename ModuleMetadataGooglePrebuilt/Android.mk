@@ -17,4 +17,5 @@ LOCAL_PRODUCT_MODULE := true
 #LOCAL_REQUIRED_MODULES :=
 include $(BUILD_PREBUILT)
 
-
+# ==================================================
+include $(call all-makefiles-under,$(LOCAL_PATH))
